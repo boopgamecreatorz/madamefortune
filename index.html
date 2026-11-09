@@ -1,0 +1,72 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madame Fortune</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="game-container">
+        <header>
+            <p class="eyebrow">THE MYSTIC PARLOR</p>
+            <h1>MADAME FORTUNE</h1>
+            <p class="subtitle">Your future is questionable.</p>
+        </header>
+
+        <section class="fortune-room">
+
+            <div class="character-area">
+                <div id="character" class="character">
+                    <div class="hair"></div>
+                    <div class="bandana"></div>
+                    <div class="face">
+                        <div class="eyebrow-left"></div>
+                        <div class="eyebrow-right"></div>
+                        <div class="eyes">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="nose"></div>
+                        <div id="mouth" class="mouth"></div>
+                    </div>
+                    <div class="neck"></div>
+                    <div class="body"></div>
+                    <div class="ear ear-left"></div>
+                    <div class="ear ear-right"></div>
+                </div>
+            </div>
+
+            <div class="dialogue-box">
+                <p id="stage-label" class="stage-label">WELCOME, STRANGER</p>
+                <h2 id="dialogue">Well hello there! What is your name?</h2>
+
+                <div id="controls" class="controls">
+                    <input
+                        id="name-input"
+                        type="text"
+                        maxlength="20"
+                        placeholder="Enter your name..."
+                        autocomplete="off"
+                    >
+                    <button id="name-submit" class="main-button">
+                        THAT'S MY NAME →
+                    </button>
+                </div>
+            </div>
+
+            <p class="disclaimer">NO REFUNDS. NO GUARANTEES. NO COMPLAINING.</p>
+        </section>
+
+        <footer>
+            <span>MADAME FORTUNE © 2026</span>
+            <span>THE FUTURE IS IN YOUR HANDS.</span>
+        </footer>
+    </main>
+
+</body>
+</html>
+```
